@@ -1,5 +1,4 @@
 var faqbutton = document.getElementsByClassName("faq-button");
-var langbuttons = document.getElementsByClassName("lang-button");
 
 for (let i = 0; i < faqbutton.length; i++) {
   faqbutton[i].addEventListener("click", (e) => {
