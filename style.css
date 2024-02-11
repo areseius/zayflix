@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+header {
+  background: transparent;
+  position: absolute;
+  width: 100%;
+}
+nav {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px auto;
+}
+nav a {
+  padding: 20px 40px;
+  font-size: 40px;
+  color: red;
+  font-weight: bold;
+  text-decoration: none;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+}
+nav ul li {
+  padding: 20px 10px;
+}
+button {
+  padding: 7px 10px;
+  background-color: red;
+  color: white;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 15px;
+}
+select {
+  padding: 5px 10px;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+}
+option {
+  background-color: #333;
+  color: white;
+}
+
+/* !sec 1 */
+
+.sec-1 {
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("https://miro.medium.com/v2/resize:fit:1400/1*5lyavS59mazOFnb55Z6znQ.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.sec-1-content {
+  text-align: center;
+}
+.sec-1-content h1 {
+  font-size: 60px;
+}
+.sec-1-content h5 {
+  font-size: 30px;
+  padding: 20px 0;
+}
+
+.sec-1-content form {
+  padding: 20px 0;
+}
+.sec-1-content .input-box input {
+  width: 350px;
+  height: 50px;
+  border-radius: 5px;
+  border: 01px solid grey;
+  outline: 0;
+  padding: 0px 20px;
+  background: transparent;
+  color: white;
+}
+.sec-1-content .input-box input::placeholder {
+  color: rgb(216, 216, 216);
+}
+
+.sec-1-content .input-box .email-button {
+  width: 200px;
+  height: 50px;
+  box-sizing: border-box;
+}
+
+/* !sec2 */
+
+.sec-2-content {
+  background-color: black;
+  color: white;
+  border-top: 8px solid rgb(56, 56, 56);
+  width: 100%;
+  padding: 40px 0;
+}
+.sec-2-content-div {
+  width: 70%;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec-2-content img {
+  flex-basis: 50%;
+  height: 450px;
+}
+.sec-2-content h1 {
+  font-size: 50px;
+  padding: 20px 0px;
+}
+.sec-2-content h5 {
+  font-size: 18px;
+  width: 70%;
+}
+
+/* !SEC-4 */
+.sec-3-content {
+  background-color: black;
+  color: white;
+  border-top: 8px solid rgb(56, 56, 56);
+  border-bottom: 8px solid rgb(56, 56, 56);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sec-3-content-div {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.sec-3-content h1 {
+  font-size: 40px;
+  padding: 40px 0px;
+}
+.sec-3-content .faq-button {
+  width: 100%;
+  height: 70px;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  background-color: rgb(46, 46, 46);
+  border-radius: 0;
+  margin: 10px 0;
+  padding: 0px 0px 0px 20px;
+}
+.sec-3-content .panel {
+  padding: 20px;
+  background-color: grey;
+  display: none;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.active {
+  background-color: grey !important;
+  margin-bottom: 0px !important;
+}
+.plus {
+  font-size: 50px;
+  font-weight: 600;
+}
+.faq-element {
+  width: 100%;
+}
+
+.sec-3-email form {
+  padding: 20px 0;
+}
+.sec-3-email .input-box input {
+  width: 350px;
+  height: 50px;
+  border-radius: 5px;
+  border: 01px solid grey;
+  outline: 0;
+  padding: 0px 20px;
+  background: transparent;
+  color: white;
+}
+
+.sec-3-email .input-box .email-button {
+  width: 200px;
+  height: 50px;
+  box-sizing: border-box;
+}
+.sec-3-email {
+  margin: 40px 0px;
+}
+.sec-3-email p {
+  font-weight: bold;
+}
+.sec-3-content .faq-button:hover {
+  background-color: grey;
+}
+.sec-3-email .input-box input::placeholder {
+  color: rgb(216, 216, 216);
+}
+/* !FOOTER */
+.sec-4-content {
+  width: 100%;
+  background-color: black;
+}
+.sec-4-content-div {
+  width: 70%;
+  margin: auto;
+}
+.list-sec {
+  display: flex;
+  justify-content: space-evenly;
+}
+.list {
+  margin: 70px 0px;
+}
+
+.list li {
+  list-style: none;
+  margin: 20px 0px;
+}
+.list li a,
+.location-text {
+  color: rgb(193, 193, 193);
+  font-size: 14px;
+  font-weight: 600;
+}
