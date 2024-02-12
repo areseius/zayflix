@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Zayflix</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -40,13 +41,21 @@
       <!-- !SEC 1 -->
       <section class="sec-1">
         <article class="sec-1-content">
-          <h1>Unlimited movies, TV shows, and more</h1>
-          <h5>Watch anywhere. Cancel anytime.</h5>
-          <p>
+          <h1 data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="100">
+            Unlimited movies, TV shows, and more
+          </h1>
+          <h5 data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200">
+            Watch anywhere. Cancel anytime.
+          </h5>
+          <p data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200">
             Ready to watch? Enter your email to create or restart your
             membership.
           </p>
-          <form>
+          <form
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+            data-aos-delay="300"
+          >
             <div class="input-box">
               <input type="email" placeholder="Email address" required />
               <button class="email-button">Get Started</button>
@@ -59,8 +68,18 @@
         <article class="sec-2-content sec-2-content-1">
           <div class="sec-2-content-div">
             <div class="sec-2-content-about">
-              <h1>Enjoy on your TV</h1>
-              <h5>
+              <h1
+                data-aos="fade-right"
+                data-aos-duration="1000"
+                data-aos-delay="100"
+              >
+                Enjoy on your TV
+              </h1>
+              <h5
+                data-aos="fade-right"
+                data-aos-duration="1000"
+                data-aos-delay="200"
+              >
                 Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV,
                 Blu-ray players, and more.
               </h5>
@@ -76,8 +95,18 @@
               src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg"
             />
             <div class="sec-2-content-about">
-              <h1>Download your shows to watch offline</h1>
-              <h5>
+              <h1
+                data-aos="fade-left"
+                data-aos-duration="1000"
+                data-aos-delay="100"
+              >
+                Download your shows to watch offline
+              </h1>
+              <h5
+                data-aos="fade-left"
+                data-aos-duration="1000"
+                data-aos-delay="200"
+              >
                 Save your favorites easily and always have something to watch.
               </h5>
             </div>
@@ -86,8 +115,18 @@
         <article class="sec-2-content sec-2-content-3">
           <div class="sec-2-content-div">
             <div class="sec-2-content-about">
-              <h1>Watch everywhere</h1>
-              <h5>
+              <h1
+                data-aos="fade-right"
+                data-aos-duration="1000"
+                data-aos-delay="100"
+              >
+                Watch everywhere
+              </h1>
+              <h5
+                data-aos="fade-right"
+                data-aos-duration="1000"
+                data-aos-delay="200"
+              >
                 Stream unlimited movies and TV shows on your phone, tablet,
                 laptop, and TV.
               </h5>
@@ -103,8 +142,18 @@
               src="https://occ-0-7292-2773.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABejKYujIIDQciqmGJJ8BtXkYKKTi5jiqexltvN1YmvXYIfX8B9CYwooUSIzOKneblRFthZAFsYLMgKMyNfeHwk16DmEkpIIcb6A3.png?r=f55"
             />
             <div class="sec-2-content-about">
-              <h1>Create profiles for kids</h1>
-              <h5>
+              <h1
+                data-aos="fade-left"
+                data-aos-duration="1000"
+                data-aos-delay="100"
+              >
+                Create profiles for kids
+              </h1>
+              <h5
+                data-aos="fade-left"
+                data-aos-duration="1000"
+                data-aos-delay="200"
+              >
                 Send kids on adventures with their favorite characters in a
                 space made just for them—free with your membership.
               </h5>
@@ -270,5 +319,11 @@
       </section>
     </footer>
     <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 1,
+      });
+    </script>
   </body>
 </html>
